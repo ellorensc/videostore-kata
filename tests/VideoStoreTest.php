@@ -3,12 +3,13 @@
 namespace tests;
 
 use PHPUnit_Framework_TestCase;
-use Movie;
-use ChildrensMovie;
-use NewReleaseMovie;
-use RegularMovie;
-use Rental;
-use RentalStatement;
+use src\ChildrensMovie;
+use src\Movie;
+use src\NewReleaseMovie;
+use src\RegularMovie;
+use src\Rental;
+use src\RentalStatement;
+
 
 /**
  * Class VideoStoreTest
