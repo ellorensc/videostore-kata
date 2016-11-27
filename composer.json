@@ -1,0 +1,16 @@
+{
+  "name": "atrapalo/videostore",
+  "description": "Uncle Bob's videostore kata",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Eduardo Llorens",
+      "email": "ellorensc@gmail.com"
+    }
+  ],
+  "require-dev": {
+    "mockery/mockery": "0.9.*",
+    "phpunit/phpunit": "^4.0"
+  }
+}
