@@ -1,14 +1,14 @@
 <?php
 
-namespace src;
+namespace video;
 
 /**
- * Class ChildrensMovie
+ * Class NewReleaseMovie
  */
-class ChildrensMovie extends Movie
+class NewReleaseMovie extends Movie
 {
     /**
-     * ChildrensMovie constructor.
+     * NewReleaseMovie constructor.
      * @param $title
      */
     public function __construct($title)
@@ -22,13 +22,7 @@ class ChildrensMovie extends Movie
      */
     public function determineAmount($daysRented) : float
     {
-        $thisAmount = 1.5;
-
-        if ($daysRented > 3) {
-            $thisAmount += ($daysRented - 3) * 1.5;
-        }
-
-        return $thisAmount;
+        return $daysRented * 3.0;
     }
 
     /**
@@ -37,6 +31,6 @@ class ChildrensMovie extends Movie
      */
     public function determineFrequentRenterPoints($daysRented) : int
     {
-        return 1;
+        return ($daysRented > 1) ? 2 : 1;
     }
 }

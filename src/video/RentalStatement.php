@@ -1,6 +1,6 @@
 <?php
 
-namespace src;
+namespace video;
 
 /**
  * Class RentalStatement
@@ -28,7 +28,7 @@ class RentalStatement
     /**
      * @param Rental $rental
      */
-    public function addRental($rental) : void
+    public function addRental($rental)
     {
         $this->rentals[] = $rental;
     }
