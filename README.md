@@ -1,7 +1,6 @@
 # Videostore Kata README #
 
 This README would normally document whatever steps are necessary to get your application up and running. 
-The videostore application will allow users to prepare cocktails by adding and removing ingredients in the correct order.
 
 ### Requirements ###
 
