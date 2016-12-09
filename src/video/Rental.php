@@ -41,4 +41,9 @@ class Rental
     {
         return $this->movie->determineAmount($this->daysRented);
     }
+
+    public function determineFrequentRenterPoints()
+    {
+        return $this->movie->determineFrequentRenterPoints($this->daysRented);
+    }
 }
